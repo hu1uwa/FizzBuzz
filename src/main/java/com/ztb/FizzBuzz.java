@@ -15,8 +15,11 @@ public class FizzBuzz {
     }
 
     public String play(int num) {
-        if (num % 3 == 0) {
+        if (num % firstNum == 0) {
             return "Fizz";
+        }
+        if(num%secondNum == 0){
+            return "Buzz";
         }
         return num + "";
     }
