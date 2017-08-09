@@ -7,6 +7,7 @@ public class FizzBuzz {
     int firstNum;
     int secondNum;
     int thirdNum;
+
     public void setFirstnum(int first, int second, int third) {
         this.firstNum = first;
         this.secondNum = second;
@@ -14,6 +15,9 @@ public class FizzBuzz {
     }
 
     public String play(int num) {
-       return num+"";
+        if (num % 3 == 0) {
+            return "Fizz";
+        }
+        return num + "";
     }
 }

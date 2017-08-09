@@ -20,4 +20,9 @@ public class FizzBuzzTest {
     public void should_equals_1() throws Exception {
         assertEquals("1",fizzBuzz.play(1));
     }
+
+    @Test
+    public void should_equals_fizz() throws Exception {
+        assertEquals("Fizz",fizzBuzz.play(3));
+    }
 }
