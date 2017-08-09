@@ -31,4 +31,10 @@ public class FizzBuzzTest {
         assertEquals("Buzz",fizzBuzz.play(5));
 
     }
+
+    @Test
+    public void shoudl_equals_whizz() throws Exception {
+        assertEquals("Whizz",fizzBuzz.play(7));
+
+    }
 }

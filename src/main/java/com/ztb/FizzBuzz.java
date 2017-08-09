@@ -18,9 +18,13 @@ public class FizzBuzz {
         if (num % firstNum == 0) {
             return "Fizz";
         }
-        if(num%secondNum == 0){
+        if (num % secondNum == 0) {
             return "Buzz";
         }
+        if (num % thirdNum == 0) {
+            return "Whizz";
+        }
+
         return num + "";
     }
 }
